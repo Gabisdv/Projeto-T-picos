@@ -1,0 +1,144 @@
+*{  
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    background-color: #606060;
+}
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #606060;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px 16px;
+    text-decoration: none;
+}
+.direita{
+    float: right;
+}
+li a:hover{
+    background-color: #808080;
+}
+.foto{
+    width: 6%;
+    right: 6%;
+    float: left;
+  
+}
+
+
+.titulos{
+	text-align: center;
+	background-image: image("livro.jpg");
+}
+
+.primeira{
+	background-color: #bbb;
+	color:black;
+	border:2px;
+	border-radius: 50px;
+	padding:50px;
+	float:center;
+	text-align: center;
+	width: 50%;
+	margin-top:40px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	
+}
+.segunda{
+	background-color: #bbb;
+	color:black;
+	border:2px;
+	border-radius: 50px;
+	padding-left:5px;
+	padding-right:15px;
+	padding-top:90px;
+	text-align: center;
+	width: 50%;
+	height: 310px;
+	float:left;
+	margin-top: 23px;
+	
+	
+}
+
+.imagem{
+	width: 40%;
+	margin-left: auto;
+	background-color: #bbb;
+	color:black;
+	text-align: center;
+	border-radius: 50px;
+	padding:40px;
+	margin-top: 5px;
+	
+	
+}
+.foto-livro{
+	width:30%;
+	height:30%;
+}
+.foto-livro:hover{
+	width: 40%;
+	box-shadow: black 3px;
+}
+
+footer{
+	width:100%;
+	height:142px;
+	background-color:#606060;
+	color:#fff;
+	text-align:center;
+	margin-top: 3%;
+}
+footer img{
+		background-color:#606060;
+	    width: 2%;
+		padding: 5px
+		
+}
+.footer-address{
+	width:49%;
+	border-right:5px solid #fff;
+	float:left;
+	color:#fff;
+	background-color:#606060;
+}
+.footer-nav{
+	width:49%;
+	float: right;
+	background-color:#606060;
+}
+.footer-nav a{
+	color:#fff;
+	text-decoration:none;
+}
+.footer_redes_sociais{
+	background-color:#606060;
+}
+
+footer a{
+	background-color:#606060;
+	color:#fff;
+}
+
+footer a:hover{
+	background-color:#606060;
+}
+
+footer p {
+	background-color:#606060;
+}
